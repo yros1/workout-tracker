@@ -65,10 +65,6 @@ headers = {
     "x-app-key": os.getenv("YOUR_NUTRITION_API_KEY")
 }
 
-# response = requests.post(url=exercise_url, json=exercise_parameters, headers=headers, timeout=5)
-# result = response.json()
-# print(result["exercises"][0]) # Print the first exercise result
-
 try:
     response = requests.post(
         url=exercise_url,
