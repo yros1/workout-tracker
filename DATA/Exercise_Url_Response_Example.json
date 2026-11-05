@@ -1,0 +1,18 @@
+{
+  "exercises" : [ {
+    "tag_id" : 10,
+    "user_input" : "lifted weights 45 min",
+    "duration_min" : 45,
+    "met" : 4,
+    "nf_calories" : 246,
+    "photo" : {
+      "highres" : "https://placeholder.not-a-real-url.com/exercise/10_highres.jpg",
+      "thumb" : "https://placeholder.not-a-real-url.com/exercise/10_thumb.jpg",
+      "is_user_uploaded" : false
+    },
+    "compendium_code" : 2050,
+    "name" : "weightlifting",
+    "description" : null,
+    "benefits" : null
+  } ]
+}
