@@ -38,7 +38,8 @@ class Sheets:
         }
 
         headers = {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "Authorization": f"{os.getenv('YOUR_SHEETY_API_AUTHENTICATION_BEARER_TOKEN')}"
         }
 
         if not os.getenv("YOUR_SHEETY_API_USERNAME"):
